@@ -1,248 +1,270 @@
-Data Science & ML Portfolio
-===========================
+Portfolio Index - Complete Works
 
-A comprehensive portfolio of data science, machine learning, and financial analysis projects. Each project is maintained in its own repository for clarity and modularity.
+Full-stack engineer and data scientist. This index covers all public projects spanning SaaS development, machine learning, 
+data science, and quantitative finance.
 
-**Portfolio Overview** | **[GitHub Profile](https://github.com/Harshit-sys169)**
-
----
-
-Projects
---------
-
-### 1. A/B Testing & Statistical Analysis  
-**Repository:** [ab-testing-wqu](https://github.com/Harshit-sys169/ab-testing-wqu)  
-Statistical hypothesis testing and experimental design for applicant engagement strategies.
-
-**Key Skills:** Power analysis, Chi-square testing, Hypothesis testing, MongoDB integration, Geographic visualization
-
-**Highlights:**
-- Calculated statistical power and required sample sizes
-- Chi-square tests for statistical significance
-- Contingency table analysis with odds ratios
-- Geographic choropleths for result visualization
+GitHub Profile | Featured Work | Contact
 
 ---
 
-### 2. Buenos Aires Real Estate Price Prediction  
-**Repository:** [buenos-aires-real-estate](https://github.com/Harshit-sys169/buenos-aires-real-estate)  
-Progressive real estate analysis from basic regression to advanced ensemble methods.
+Featured: UC Investor Updates Platform
 
-**Key Skills:** Regularization (Ridge/Lasso/ElasticNet), Feature selection (SelectKBest/RFE/Permutation), Model stacking, Cross-validation
+Intelligent investor update automation platform enabling seamless founder-to-investor communication.
 
-**Highlights:**
-- Task 1-3: Progressive complexity (linear → geographic → neighborhood features)
-- Task 4 Advanced: Regularization comparison with 4 different techniques
-- Task 4 Feature Selection: 4 methods (SelectKBest, RFE, Lasso, Permutation importance)
-- Task 4 Model Stacking: Ensemble blending of diverse base learners
-- Demonstrated coefficient behavior and sparsity analysis
+Repository: uc-investor-updates-platform
+Focus: Full-stack SaaS development with AI integration
 
----
+Core Features:
+- AI-powered content generation with OpenAI
+- Email delivery with tracking (Resend integration)
+- Team collaboration with role-based access
+- Recurring scheduling with timezone support
+- Investor reply management and analytics
+- Comprehensive audit logging
 
-### 3. Credit Risk Analysis  
-**Repository:** [credit-risk-clustering](https://github.com/Harshit-sys169/credit-risk-clustering)  
-Unsupervised learning for business owner financial segmentation.
+Technology: Next.js 14, React 18, TypeScript, PostgreSQL, Prisma ORM, Clerk auth, Resend API, OpenAI
 
-**Key Skills:** K-Means clustering, PCA dimensionality reduction, Silhouette analysis, Feature standardization
-
-**Highlights:**
-- Optimal cluster selection using silhouette analysis
-- PCA for 2D visualization of high-dimensional data
-- Cluster profiling and business interpretation
-- Understanding cluster characteristics in original feature space
+Status: Active development with complete documentation and roadmap
 
 ---
 
-### 4. Earthquake Damage Prediction (Advanced ML Methodology)  
-**Repository:** [earthquake-damage-prediction](https://github.com/Harshit-sys169/earthquake-damage-prediction)  
-Production-grade classification with rigorous methodology: hyperparameter optimization, feature importance, CV strategy.
+Data Science & Machine Learning Projects
 
-**Key Skills:** 
-- GridSearchCV with StratifiedKFold
-- Hyperparameter tuning (max_depth, min_samples, criterion)
+1. A/B Testing & Statistical Analysis
+
+Repository: ab-testing-wqu
+Focus: Statistical hypothesis testing and experimental design
+
+Key Techniques:
+- Power analysis and sample size calculation
+- Chi-square testing for statistical significance
+- Contingency table analysis
+- Geographic visualization (choropleths)
+
+Application: Applicant engagement strategy optimization
+
+---
+
+2. Earthquake Damage Prediction
+
+Repository: earthquake-damage-prediction
+Focus: Advanced ML methodology and production-grade practices
+
+Key Techniques:
+- GridSearchCV hyperparameter optimization
+- Stratified cross-validation for imbalanced data
 - Tree-based and permutation importance
 - Feature group analysis with business interpretation
-- Imbalanced data handling (stratified splitting)
-- Comprehensive cross-validation strategy explanation
+- F1 score optimization
 
-**Highlights:**
-- Three-way stratified split (train/val/test) preserving class distribution
-- GridSearchCV optimization for Decision Trees and Logistic Regression
-- Multiple feature importance methods (tree-based + permutation)
-- Feature groups analysis: Age, Size, Foundation, Structure, Configuration
-- Cross-validation strategy documentation with stability analysis
-- F1 score optimization for imbalanced data (not accuracy)
+Highlights:
+- Three-way stratified split preserving class distribution
+- Multiple hyperparameter tuning approaches
+- Comprehensive cross-validation strategy documentation
+- Feature importance across 5 building characteristic groups
 
 ---
 
-### 5. Bankruptcy Prediction in Poland (Advanced Techniques)  
-**Repository:** [bankruptcy-prediction-poland](https://github.com/Harshit-sys169/bankruptcy-prediction-poland)  
-End-to-end ML project with advanced techniques for imbalanced data, ensemble methods, SHAP interpretability, and cost-aware optimization.
+3. Poland Bankruptcy Prediction
 
-**Key Skills:**
-- Imbalanced data handling (SMOTE, Random Oversampling)
+Repository: bankruptcy-prediction-poland
+Focus: Advanced ensemble methods with interpretability
+
+Key Techniques:
 - Ensemble methods (Random Forest, Gradient Boosting, AdaBoost)
+- SMOTE for imbalanced data handling
+- SHAP values for model interpretability
 - Cost-sensitive learning with threshold optimization
-- SHAP model interpretability
-- Business metrics and financial impact analysis
-- Proper evaluation metrics (F1, ROC-AUC, Balanced Accuracy)
-
-**Highlights:**
-- Demonstrated why accuracy fails on imbalanced data
-- Compared multiple imbalance handling techniques
-- Ensemble comparison showing diversity advantage
-- SHAP values for prediction-level explanations
-- Cost curves for threshold optimization
-- Business impact analysis translating model predictions to financial value
-
----
-
-### 6. Market Volatility Analysis  
-**Repository:** [market-volatility-analysis](https://github.com/Harshit-sys169/market-volatility-analysis)  
-Financial time series analysis for volatility patterns and market trends.
-
-**Key Skills:** Time series processing, Rolling statistics, Volatility metrics, Market visualization
-
-**Highlights:**
-- Rolling volatility calculation
-- Exponentially weighted moving averages
-- Drawdown analysis
-- Risk-return visualization
-
----
-
-### 7. Latin America Real Estate Markets  
-**Repository:** [latin-america-real-estate](https://github.com/Harshit-sys169/latin-america-real-estate)  
-Real estate analysis across Brazil and Mexico with feature engineering focus.
-
-**Key Skills:** Geographic data processing, Feature engineering, Missing value handling, Preprocessing pipelines
-
-**Highlights:**
-- Coordinate extraction from location strings
-- Hierarchical location parsing
-- ColumnTransformer for mixed feature types
-- Geographic aggregation and neighborhood analysis
-
----
-
-Portfolio Competencies
-======================
-
-**Machine Learning & Statistics**
-- Regression: Linear, Ridge, Lasso, ElasticNet
-- Classification: Logistic Regression, Decision Trees, Random Forest, Gradient Boosting, AdaBoost
-- Clustering: K-Means, PCA
-- Ensemble methods and model stacking
-- Hyperparameter optimization with GridSearchCV
-- Cross-validation strategies (K-Fold, StratifiedKFold)
-
-**Data Science & Engineering**
-- Data cleaning and preprocessing
-- Feature engineering and selection
-- Handling missing values and outliers
-- Working with multiple data sources (CSV, JSON, SQLite, MongoDB)
-- Building reusable ML pipelines
-
-**Handling Real-World Challenges**
-- Imbalanced data: SMOTE, oversampling, appropriate metrics
-- Class imbalance: Stratified splitting, cost-sensitive learning
-- High-dimensional data: PCA, feature selection
-- Messy data: Missing values, outliers, inconsistent formats
-- Business constraints: Cost asymmetry, threshold optimization
-
-**Model Interpretation & Communication**
-- Feature importance (tree-based, permutation)
-- SHAP values for model explanations
-- Confusion matrix analysis
-- ROC and Precision-Recall curves
 - Business metric translation
 
-**Visualization & Communication**
-- Static plots: matplotlib, seaborn
-- Interactive visualizations: plotly
-- 3D surface plots for geographic data
-- Confusion matrices and feature importances
-- Geographic choropleths
+Highlights:
+- Comparison of imbalance handling techniques
+- Ensemble diversity analysis
+- Prediction-level SHAP explanations
+- Cost curves for cost-aware optimization
+- Financial impact analysis
+
+---
+
+4. Buenos Aires Real Estate Price Prediction
+
+Repository: buenos-aires-real-estate
+Focus: Regularization, feature selection, and model stacking
+
+Key Techniques:
+- Ridge/Lasso/ElasticNet regularization comparison
+- Feature selection (SelectKBest, RFE, Lasso, Permutation)
+- Model stacking and ensemble blending
+- Coefficient behavior analysis
+- Cross-validation strategies
+
+Highlights:
+- Progressive complexity from basic to advanced
+- 4 different feature selection methods
+- Ensemble stacking with diverse base learners
+- Sparsity and regularization effects
+
+---
+
+5. Credit Risk Financial Segmentation
+
+Repository: credit-risk-clustering
+Focus: Unsupervised learning and dimensionality reduction
+
+Key Techniques:
+- K-Means clustering
+- PCA dimensionality reduction
+- Silhouette analysis for cluster validation
+- Feature standardization
+- Cluster profiling and interpretation
+
+Highlights:
+- Optimal cluster selection methodology
+- 2D visualization of high-dimensional data
+- Business-driven cluster characterization
+- Segmentation for financial decision-making
+
+---
+
+6. Market Volatility Analysis
+
+Repository: market-volatility-analysis
+Focus: Time series analysis and financial metrics
+
+Key Techniques:
+- Rolling statistics calculation
+- Volatility metrics and EWMA
+- Drawdown analysis
+- Financial indicator computation
+- Time series visualization
+
+Application: Market risk and trend analysis
+
+---
+
+7. Latin America Real Estate Markets
+
+Repository: latin-america-real-estate
+Focus: Geographic data processing and feature engineering
+
+Key Techniques:
+- Coordinate extraction from location strings
+- Hierarchical location parsing
+- Mixed-type feature processing (ColumnTransformer)
+- Geographic aggregation
+- Neighborhood-level analysis
+
+Scope: Brazil and Mexico real estate markets
+
+---
+
+Competency Summary
+
+Full-Stack Development
+- Languages: Python, JavaScript/TypeScript, SQL
+- Frontend: React, Next.js, TypeScript, CSS
+- Backend: Node.js, Express, Next.js API Routes
+- Databases: PostgreSQL, SQLite, MongoDB
+- ORMs: Prisma, SQLAlchemy
+- APIs: REST design, Third-party integration (OpenAI, Resend, Clerk)
+
+Machine Learning & Statistics
+- Supervised: Linear regression, classification trees, ensemble methods, gradient boosting
+- Unsupervised: K-Means clustering, PCA, hierarchical clustering
+- Ensemble: Random Forest, Gradient Boosting, AdaBoost, stacking, voting
+- Hyperparameter: GridSearchCV, RandomizedSearchCV, cross-validation
+- Statistical: Hypothesis testing, power analysis, Chi-square, probability theory
+
+Real-World Problem Solving
+- Imbalanced data: SMOTE, class weighting, cost-sensitive learning
+- High-dimensional: Feature selection, dimensionality reduction, regularization
+- Data quality: Missing values, outliers, validation frameworks
+- Business translation: Cost-aware optimization, KPI alignment, impact analysis
+
+Model Interpretability
+- Feature importance (tree-based, permutation, SHAP)
+- SHAP explanations and Shapley analysis
+- ROC/PR curve analysis
+- Confusion matrix interpretation
+- Business-driven explanations
 
 ---
 
 Technology Stack
-================
 
-**Core ML & Data**
-- Python, pandas, numpy, scikit-learn
-- imblearn (SMOTE, imbalanced data)
-- scipy, statsmodels (statistical analysis)
-
-**Specialized Libraries**
+Python & Data Science
+- pandas, numpy, scikit-learn, scipy, statsmodels
+- imblearn (SMOTE, imbalanced data handling)
 - SHAP (model interpretability)
 - category_encoders (advanced encoding)
-- yfinance (financial data)
 
-**Databases & Data Handling**
-- SQLite, MongoDB
-- SQLAlchemy
-- JSON processing
+JavaScript/TypeScript & Web
+- React, Next.js 14, Express
+- Prisma ORM, SQLAlchemy
+- TailwindCSS
 
-**Visualization**
-- matplotlib, seaborn
-- plotly (interactive)
-- country_converter (geographic)
+AI & Integrations
+- OpenAI API, LLM applications
+- Clerk authentication
+- Resend email service
 
----
+Databases
+- PostgreSQL, SQLite
+- MongoDB
 
-Key Learnings & Philosophy
-==========================
-
-1. **Methodology > Algorithm:** Proper train/test splitting, cross-validation, and hyperparameter tuning matter more than fancy algorithms.
-
-2. **Business Reality:** Statistics don't drive decisions; business metrics do. Understanding misclassification costs and ROI is critical.
-
-3. **Imbalanced Data is the Norm:** Most real ML problems are imbalanced. Standard accuracy is misleading.
-
-4. **Ensemble Diversity Wins:** Combining different model types (linear + tree-based) beats tuning a single model.
-
-5. **Interpretability Drives Adoption:** SHAP, feature importance, and business translations are essential for stakeholder buy-in.
-
-6. **Feature Engineering Drives Performance:** Domain understanding and feature engineering often beat algorithm tuning.
-
-7. **Proper Evaluation is Non-Negotiable:** CV estimates are more reliable than single train/test splits.
+Visualization
+- matplotlib, seaborn, plotly
 
 ---
 
-Project Statistics
-==================
+Key Principles
 
-- **Total Projects:** 7
-- **Repositories:** 8 (including this index)
-- **Advanced Techniques:** Ensemble methods, SHAP, Cost-sensitive learning, Feature selection, Hyperparameter optimization
-- **Domains:** Finance, Real Estate, Earthquake, Bankruptcy, A/B Testing, Market Analysis
-- **Focus Areas:** Production-grade methodology, Business-aware ML, Model interpretability
+Methodology Over Algorithms: Proper approach and validation strategies matter more than fancy techniques. 
+Each project demonstrates production-grade development practices.
+
+Business Reality Drives Decisions: Technical accuracy without business relevance is purely academic. 
+Every project translates model outputs to business metrics and financial impact.
+
+Interpretability Essential: Complex black-box models have limited adoption. SHAP values, feature importance, 
+and clear explanations are core to every project.
+
+Production Quality Non-Negotiable: Clean architecture, proper testing, comprehensive documentation, 
+and reproducibility are standards across all work.
+
+---
+
+Statistics
+
+Repositories: 11 (public)
+Featured Projects: 1 SaaS, 7 ML/Data Science
+Advanced Techniques: 20+ demonstrated
+Domains: Finance, Real Estate, Insurance, Tech
+Focus: Full-stack development, production ML, interpretability, business impact
 
 ---
 
 Getting Started
-===============
 
-Each project is self-contained with its own:
-- `README.md` - Detailed project documentation
-- `requirements.txt` - Python dependencies
-- Analysis scripts - Ready to run (with data)
+To explore any project:
 
-**To explore:**
-1. Choose a project from the list above
-2. Click the repository link
-3. Clone: `git clone <repository-url>`
-4. Install: `pip install -r requirements.txt`
-5. Run: `python <script-name>.py`
+1. Click repository link above
+2. Clone: git clone <url>
+3. Install: pip install -r requirements.txt (for Python projects)
+4. Read: README.md for detailed documentation
+5. Run: Execute included scripts (data may be required)
 
 ---
 
-Contact & Links
-===============
+Contact
 
-- **GitHub:** [@Harshit-sys169](https://github.com/Harshit-sys169)
-- **Portfolio Index:** This repository
-- **Individual Projects:** See links above
+GitHub: @Harshit-sys169
+Email: f20240474@pilani.bits-pilani.ac.in
 
-Interested in data science, machine learning, quantitative finance, or these projects? Let's connect!
+Interests: Full-stack development, production machine learning, SaaS platforms, AI integration, 
+data science leadership, technical collaboration
+
+Always interested in discussing ML approaches, real-world problem solving, or collaboration opportunities.
+
+---
+
+Last Updated: May 2026 | Maintained with production-grade standards
